@@ -1,0 +1,100 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#heading{
+  vertical-align: top;
+}
+.vizagpics{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.intro{
+    background-image: url(images/background1.jpg); 
+    background-size: cover; 
+    height:400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+.activities{
+    display: flex;
+    background-color: #F1FAEE;
+    padding: 50px 25px; 
+}
+#welcome{
+    background: #1D3557;
+    padding: 10px 10px;
+    border-radius: 5px;
+    vertical-align: top;
+}
+#describe{
+    text-shadow: 0px 0px 5px black;
+}
+.personel{
+    height: 250px;
+    background-image: url(images/harsha2.jpeg);
+    background-size: cover;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left:13px;
+    border-radius: 10px;
+    padding-right: 200px;
+    margin-right: 10px;
+}
+.footer{
+    display: flex;
+    background: #A8DADC;
+    margin: 50px 160px 50px 160px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: 294px;
+}
+.fa {
+  padding: 5px 5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-linkedin:hover {
+  background: red;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-twitter:hover {
+  background: green;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-instagram:hover {
+  background: black;
+  color: white;
+}
